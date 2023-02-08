@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <windows.h>
+#include <locale.h>
 
 enum Months
 {
@@ -23,7 +24,7 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     setlocale(LC_ALL, "Russian");
-    std::cout << "Введите номер месяца который хотите узнать(от 1 до 12), для выхода введите: 0." << std::endl;
+    std::cout << "������� ����� ������ ������� ������ ������(�� 1 �� 12), ��� ������ �������: 0." << std::endl;
     int input_value = 0;
     do
     {
@@ -71,10 +72,10 @@ int main()
         }
         else
         {
-            std::cout << "Неправильный номер!" << std::endl;
+            std::cout << "������������ �����!" << std::endl;
             continue;
         }
     } while (input_value != 0);
 
-    std::cout << "До свидания" << std::endl;
+    std::cout << "�� ��������" << std::endl;
 }
