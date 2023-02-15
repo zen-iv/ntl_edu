@@ -19,7 +19,7 @@ public:
             std::string smth;
             while (!file_in.eof()) {
                 file_in >> smth;
-                out_file_push(smth, x, are); // are - Что мы отправляем Город, Улица... x - номер города по порялку
+                out_file_push(smth, x, are); // are - пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ... x - пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                 are++;
                 if (are > 3)
                 {
@@ -28,9 +28,10 @@ public:
                 }
             }
             file_in.close();
+            delete[] out_citys1;
         }
         else {
-            std::cout << "Не получилось открыть файл!" << std::endl;
+            std::cout << "File open error!" << std::endl;
         }
     }
 
@@ -100,5 +101,5 @@ int main()
     list1.open_file();
     list1.out_file_return();
 
-    std::cout << "Файл готов - \"out.txt\"\n";
+    std::cout << "File ready - \"out.txt\"\n";
 }

@@ -27,6 +27,7 @@ public:
                 }
             }
             file_in.close();
+            delete[] out_citys1;
         }
         else {
             std::cout << "Не получилось открыть файл!" << std::endl;
