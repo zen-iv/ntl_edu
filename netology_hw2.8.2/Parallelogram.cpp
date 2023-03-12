@@ -1,20 +1,8 @@
 #include "Parallelogram.h"
 
-std::string Parallelogram::correct() {
-	try
-	{
-		if ((corners_count != 4) && ((t_A + t_B + t_C + t_D) != 360) && ((t_a != t_c) && (t_b != t_d)) && ((t_A != t_C) && (t_B != t_D)))
+void Parallelogram::correct() {
+		if ((corners_count != 4) || ((A + B + C + D) != 360) || ((a != c) || (b != d)) || ((A != C) || (B != D)))
 		{
 			throw Uncorrect_Figure("Неправильные параметры в файле: Parallelogram.h\n"); // "Неправильная\n";
 		}
-		else
-		{
-			return "Правильная\n";
-		}
-	}
-	catch (const Uncorrect_Figure& err)
-	{
-		std::cout << err.what() << std::endl;
-		//throw;
-	}
 }

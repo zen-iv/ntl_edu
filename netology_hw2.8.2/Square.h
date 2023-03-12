@@ -3,15 +3,17 @@
 class Square :public::Quadrilateral
 {
 public:
-    Square() {
+    Square() {};
+    Square(int corners, int u_a, int u_b, int u_c, int u_d, int u_A, int u_B, int u_C, int u_D) {
         figure_name = quad_name;
-        a = t_a, b = t_b, c = t_c, d = t_d;
-        A = t_A, B = t_B, C = t_C, D = t_D;
+
+        corners_count = corners;
+        a = u_a, b = u_b, c = u_c, d = u_d;
+        A = u_A, B = u_B, C = u_C, D = u_D;
+        correct();
     }
 protected:
     std::string quad_name = " вадрат: ";
-    unsigned int t_a = 45, t_b = 45, t_c = 45, t_d = 45;
-    unsigned int t_A = 90, t_B = 90, t_C = 90, t_D = 90;
 
-    std::string correct() override;
+    void correct() override;
 };

@@ -1,27 +1,14 @@
 #include "Triangle.h"
 
-std::string Triangle::correct() {
-	try
-	{
-		if ((corners_count != 3) && (A + B + C != 180))
+void Triangle::correct() {
+		if ((corners_count != 3) || (A + B + C != 180))
 		{
 			throw Uncorrect_Figure("Неправильные параметры в файле: Triangle.h\n"); // "Неправильная\n";
 		}
-		else
-		{
-			return "Правильная\n";
-		}
-	}
-	catch (const Uncorrect_Figure& err)
-	{
-		std::cout << err.what() << std::endl;
-		//throw;
-	}
 }
 
 void Triangle::return_figure()  {
     std::cout << figure_name << std::endl;
-    std::cout << correct() << std::endl;
     std::cout << "Кол-во углов: " << corners_count << std::endl;
     std::cout << "Стороны: " << "a = " << a << " " << "b = " << b << " " << "c = " << c << std::endl;
     std::cout << "Углы: " << "A = " << A << " " << "B = " << B << " " << "C = " << C << std::endl;

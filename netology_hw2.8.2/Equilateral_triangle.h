@@ -4,15 +4,16 @@ class Equilateral_triangle : public::Triangle
 {
     //равносторонний треугольник(все стороны равны, все углы равны 60);
 public:
-    Equilateral_triangle() {
+    Equilateral_triangle() {};
+    Equilateral_triangle(int corners, int u_a, int u_b, int u_c, int u_A, int u_B, int u_C) {
         figure_name = triangle_name;
-        a = t_a, b = t_b, c = t_c;
-        A = t_A, B = t_B, C = t_C;
+        corners_count = corners;
+        a = u_a, b = u_b, c = u_c;
+        A = u_A, B = u_B, C = u_C;
+        correct();
     }
 protected:
     std::string triangle_name = "Равносторонний треугольник: ";
-    unsigned int t_a = 5, t_b = 5, t_c = 5;
-    unsigned int t_A = 60, t_B = 60, t_C = 60;
 
-    std::string correct() override;
+    void correct() override;
 };

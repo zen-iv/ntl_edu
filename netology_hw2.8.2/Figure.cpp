@@ -5,25 +5,13 @@
 
 void Figure::return_figure() {
 	
-    std::cout << correct() << figure_name << corners_count << std::endl;
+    std::cout << figure_name << corners_count <<" углов" << std::endl;
 }
 
-std::string Figure::correct() {
-	try
+void Figure::correct() {
+	
+	if (corners_count != 0)
 	{
-		if (corners_count != 0)
-		{
-			throw Uncorrect_Figure("Неправильные параметры в файле: Figure.h\n"); // "Неправильная\n";
-		}
-		else
-		{
-			return "Правильная\n";
-		}
+		throw Uncorrect_Figure("Неправильные параметры в файле: Figure.h\n"); // "Неправильная\n";
 	}
-	catch (const Uncorrect_Figure& err)
-	{
-		std::cout << err.what() << std::endl;
-		//throw;
-	}
-};
-
+}

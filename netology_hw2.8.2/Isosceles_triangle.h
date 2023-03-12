@@ -4,15 +4,16 @@ class Isosceles_triangle : public::Triangle
 {
     //равнобедренный треугольник (стороны a и c равны, углы A и C равны);
 public:
-    Isosceles_triangle() {
+    Isosceles_triangle() {};
+    Isosceles_triangle(int corners, int u_a, int u_b, int u_c, int u_A, int u_B, int u_C) {
         figure_name = triangle_name;
-        a = t_a, b = t_b, c = t_c;
-        A = t_A, B = t_B, C = t_C;
+        corners_count = corners;
+        a = u_a, b = u_b, c = u_c;
+        A = u_A, B = u_B, C = u_C;
+        correct();
     }
 protected:
     std::string triangle_name = "Равнобедренный треугольник: ";
-    unsigned int t_a = 6, t_b = 3, t_c = 6;
-    unsigned int t_A = 60, t_B = 120, t_C = 30;
 
-    std::string correct() override;
+    void correct() override;
 };

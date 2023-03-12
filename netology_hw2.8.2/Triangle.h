@@ -3,17 +3,19 @@
 class Triangle :public ::Figure
 {
 public:
-    Triangle() {
+    Triangle() { a = 10; b = 10; c = 10; A = 60; B = 60; C = 60; };
+    Triangle(int corners, int u_a, int u_b, int u_c, int u_A, int u_B, int u_C) {
         figure_name = "Триугольник: ";
-        corners_count = 3;
-        a = 12; b = 16; c = 18; A = 45; B = 35; C = 100;
+        corners_count = corners;
+        a = u_a; b = u_b; c = u_c; A = u_A; B = u_B; C = u_C;
+        correct();
     }
     void return_figure() override;
 
 protected:
     std::string figure_name;
-    unsigned int a, b, c; //length
-    unsigned int A, B, C; //angle
+    int a, b, c; //length
+    int A, B, C; //angle
 
-    std::string correct() override;
+    void correct() override;
 };
