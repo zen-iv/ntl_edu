@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "netology_hw2.10.2_cmake",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fig_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fig_lib-Debug-63e6dea87885cc762c0d.json",
+					"name" : "fig_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "netology_hw2.10.2_cmake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-netology_hw2.10.2_cmake-Debug-ec18afb427d73142f560.json",
+					"name" : "netology_hw2.10.2_cmake",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/old/DZ/netology_hw2.10.2_cmake/out/build/x64-Debug",
+		"source" : "D:/old/DZ/netology_hw2.10.2_cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

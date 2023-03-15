@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/old/DZ/netology_hw2.10.2_cmake/out/build/x64-Debug/CMakeFiles/netology_hw2.10.2_cmake.dir/embed.manifest"

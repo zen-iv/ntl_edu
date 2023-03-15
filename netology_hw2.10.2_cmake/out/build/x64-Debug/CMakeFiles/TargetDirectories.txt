@@ -1,0 +1,4 @@
+D:/old/DZ/netology_hw2.10.2_cmake/out/build/x64-Debug/CMakeFiles/fig_lib.dir
+D:/old/DZ/netology_hw2.10.2_cmake/out/build/x64-Debug/CMakeFiles/netology_hw2.10.2_cmake.dir
+D:/old/DZ/netology_hw2.10.2_cmake/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/old/DZ/netology_hw2.10.2_cmake/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

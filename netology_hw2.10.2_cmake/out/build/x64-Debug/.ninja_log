@@ -1,0 +1,15 @@
+# ninja log v5
+37	1445	7006010700000000	CMakeFiles/fig_lib.dir/Uncorrect_Figure.cpp.obj	f30618023495b726
+11	1488	7006010700000000	CMakeFiles/fig_lib.dir/Parallelogram.cpp.obj	3ec0cd069d67d7e7
+8	1529	7006010700000000	CMakeFiles/fig_lib.dir/Isosceles_triangle.cpp.obj	101f08a9f69d9caa
+5	1534	7006010700000000	CMakeFiles/fig_lib.dir/Equilateral_triangle.cpp.obj	f57b1f8cdb2c2080
+29	1536	7006010700000000	CMakeFiles/fig_lib.dir/Square.cpp.obj	d025f4efcdd5d1f4
+15	1539	7006010700000000	CMakeFiles/fig_lib.dir/Quadrilateral.cpp.obj	2dc0d0d68e74602c
+1541	2528	7006010720000000	fig_lib.lib	721892e8e78eaa73
+22	1537	7006010700000000	CMakeFiles/fig_lib.dir/Rhombus.cpp.obj	814bb7e309d4873a
+2	1539	7006010700000000	CMakeFiles/fig_lib.dir/Figure.cpp.obj	7d33362713e4c3e1
+33	1540	7006010700000000	CMakeFiles/fig_lib.dir/Triangle.cpp.obj	fa4503301746f5f3
+25	1541	7006010700000000	CMakeFiles/fig_lib.dir/Right_triangle.cpp.obj	b4bc8659bec8ffe6
+18	1541	7006010700000000	CMakeFiles/fig_lib.dir/Rectangle.cpp.obj	18125f9c600f9d74
+41	2564	7006010720000000	CMakeFiles/netology_hw2.10.2_cmake.dir/netology_hw2.10.2.cpp.obj	9a3f73796b8819f5
+2564	2970	7006010720000000	netology_hw2.10.2_cmake.exe	389968a4476eeeba
