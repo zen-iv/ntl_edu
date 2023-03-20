@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netology_hw2.11.1", "netology_hw2.11.1.vcxproj", "{DEBA8381-6696-4949-91F5-A91AAEC34852}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "greeter_app", "greeter_app\greeter_app.vcxproj", "{68E82A8E-E012-4586-9D5C-541AEE56172E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Debug|x64.ActiveCfg = Debug|x64
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Debug|x64.Build.0 = Debug|x64
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Debug|x86.Build.0 = Debug|Win32
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Release|x64.ActiveCfg = Release|x64
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Release|x64.Build.0 = Release|x64
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Release|x86.ActiveCfg = Release|Win32
+		{DEBA8381-6696-4949-91F5-A91AAEC34852}.Release|x86.Build.0 = Release|Win32
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Debug|x64.ActiveCfg = Debug|x64
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Debug|x64.Build.0 = Debug|x64
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Debug|x86.ActiveCfg = Debug|Win32
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Debug|x86.Build.0 = Debug|Win32
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Release|x64.ActiveCfg = Release|x64
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Release|x64.Build.0 = Release|x64
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Release|x86.ActiveCfg = Release|Win32
+		{68E82A8E-E012-4586-9D5C-541AEE56172E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78060DA9-306F-49D4-B93A-C5BB3F5D3124}
+	EndGlobalSection
+EndGlobal
