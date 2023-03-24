@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <string>
-#include "Leaver.h"
+#include "NETOLOGYHWDLL.h"
+#include <windows.h>
 
 int main() {
     setlocale(LC_ALL, "RU");
@@ -10,8 +11,9 @@ int main() {
     std::cout << "Введите имя: ";
     std::cin >> user_name;
 
-    Messages::Leaver user_to_greet(user_name);
+    Leaver user_to_greet(user_name);
     user_to_greet.leave();
+    system("pause");
 
     return 0;
 }

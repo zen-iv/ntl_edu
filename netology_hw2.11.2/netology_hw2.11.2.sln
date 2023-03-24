@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netology_hw2.11.2_dll", "netology_hw2.11.2_dll\netology_hw2.11.2_dll.vcxproj", "{D039213F-4D30-40E7-92E3-AF63E74C40D4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NETOLOGYHWDLL", "NETOLOGYHWDLL\NETOLOGYHWDLL.vcxproj", "{2EEDA439-7E4A-419A-BF3B-D802D2876C23}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netology_hw2.11.2_app", "netology_hw2.11.2_app\netology_hw2.11.2_app.vcxproj", "{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NETOLOGYHWEXE", "NETOLOGYHWEXE\NETOLOGYHWEXE.vcxproj", "{16CFFA79-6993-4846-88FF-CCD663DE78AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,27 +15,27 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Debug|x64.ActiveCfg = Debug|x64
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Debug|x64.Build.0 = Debug|x64
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Debug|x86.ActiveCfg = Debug|Win32
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Debug|x86.Build.0 = Debug|Win32
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Release|x64.ActiveCfg = Release|x64
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Release|x64.Build.0 = Release|x64
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Release|x86.ActiveCfg = Release|Win32
-		{D039213F-4D30-40E7-92E3-AF63E74C40D4}.Release|x86.Build.0 = Release|Win32
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Debug|x64.ActiveCfg = Debug|x64
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Debug|x64.Build.0 = Debug|x64
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Debug|x86.ActiveCfg = Debug|Win32
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Debug|x86.Build.0 = Debug|Win32
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Release|x64.ActiveCfg = Release|x64
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Release|x64.Build.0 = Release|x64
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Release|x86.ActiveCfg = Release|Win32
-		{E550B12C-8BFC-44C7-9BD3-A448CC36F59B}.Release|x86.Build.0 = Release|Win32
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Debug|x64.ActiveCfg = Debug|x64
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Debug|x64.Build.0 = Debug|x64
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Debug|x86.ActiveCfg = Debug|Win32
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Debug|x86.Build.0 = Debug|Win32
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Release|x64.ActiveCfg = Release|x64
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Release|x64.Build.0 = Release|x64
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Release|x86.ActiveCfg = Release|Win32
+		{2EEDA439-7E4A-419A-BF3B-D802D2876C23}.Release|x86.Build.0 = Release|Win32
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Debug|x64.ActiveCfg = Debug|x64
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Debug|x64.Build.0 = Debug|x64
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Debug|x86.Build.0 = Debug|Win32
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Release|x64.ActiveCfg = Release|x64
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Release|x64.Build.0 = Release|x64
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Release|x86.ActiveCfg = Release|Win32
+		{16CFFA79-6993-4846-88FF-CCD663DE78AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0D9CC78B-E14A-4C89-BBA7-3AF5A1436726}
+		SolutionGuid = {9155551D-8ECD-440C-8EBD-9D6867389ACA}
 	EndGlobalSection
 EndGlobal
