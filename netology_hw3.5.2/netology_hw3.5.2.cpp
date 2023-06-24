@@ -57,6 +57,10 @@ public:
 			_table = nullptr;
 		}		
 	};
+	Table& operator=(const Table& other);
+	Table(const Table& other);
+
+
 	Row &operator[](int index)
 	{
 		assert(index >= 0 && index < _rows && "Недопустимый индекс!");
@@ -207,6 +211,11 @@ int main()
 	std::cout << "Size = " << table1.Size() << '\n';
 	table1[4][1] = 15.1;
 	std::cout << "table1[4][1] = " << table1[4][1] << "\n\n";
+
+	/*Table<int> t1(2, 3); //Запрещено копировать/присваивать
+	Table<int> t2(2, 3);
+
+	t1 = t2;*/
 
 	const Table<int> table2{ {1,2,3}, {4,5,6} };
 	std::cout << "Size = " << table2.Size() << '\n';
