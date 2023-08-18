@@ -9,11 +9,16 @@
 
 int main() {
     std::vector<int> vec = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    std::cout << "Before" << ": " << std::endl;
+    for (int x : vec) {
+        std::cout << x << " ";
+    }
     std::for_each(vec.begin(), vec.end(), [](int& x) { //можно через for(auto & x : vec)...
         if (x % 2 == 1) {
             x *= 3;
         }
         });
+    std::cout << "\n\nAfter" << ": " << std::endl;
     for (int x : vec) {
         std::cout << x << " ";
     }
