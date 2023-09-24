@@ -15,28 +15,42 @@
 template<class T>
 class smart_pointer {
 public:
-	smart_pointer(T* ptr_) : ptr(ptr_) { }
-	T& operator*() { return *ptr; }
+    // Конструктор по умолчанию
+    smart_pointer() : ptr(nullptr) {}
+    // Конструктор принимающий указатель
+    smart_pointer(T* ptr_) : ptr(ptr_) {}
 
-	smart_pointer& operator=(const smart_pointer&) = delete;
-	~smart_pointer() {
-		std::cout << "destructor\n";
-		delete[] ptr;
-		ptr = nullptr;
-	}
-	T* release() {
-		T* temp_buf = ptr;
-		*temp_buf = *ptr;
-		ptr = nullptr;
-		return temp_buf;
-	}
+    // Перегружена * для получения объекта
+    T& operator*() { return *ptr; }
+
+    // Запрещем оператор присваивания и конструктор копирования
+    smart_pointer(const smart_pointer&) = delete;
+    smart_pointer& operator=(const smart_pointer&) = delete;
+
+    ~smart_pointer() {
+        std::cout << "destructor\n";
+        delete ptr;
+        ptr = nullptr;
+    }
+
+    T* release() {
+        T* temp_buf = ptr;
+        ptr = nullptr;
+        return temp_buf;
+    }
+
 private:
-	T* ptr;
+    T* ptr;
 };
 
 int main() {
-	smart_pointer<int> ptr(new int(123));
-	std::cout << *ptr << "\n";
-	auto* ptr_1 = ptr.release();
-	delete ptr_1;
+    smart_pointer<int> ptr(new int(123));
+    std::cout << *ptr << "\n";
+
+    //smart_pointer<int> ptr2(ptr); // не пропускает
+
+    auto* ptr_1 = ptr.release();
+    delete ptr_1;
+
+    return 0;
 }
